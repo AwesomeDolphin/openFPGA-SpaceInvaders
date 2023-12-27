@@ -1,0 +1,27 @@
+{
+    "input": {
+        "magic": "APF_VER_1",
+        "controllers": [
+            {
+                "id": 0,
+                "name": "Fire",
+                "key": "pad_btn_a"
+            },
+            {
+                "id": 5,
+                "name": "Coin",
+                "key": "pad_trig_r"
+            },
+            {
+                "id": 6,
+                "name": "Player 1",
+                "key": "pad_btn_start"
+            },
+            {
+                "id": 7,
+                "name": "Player 2",
+                "key": "pad_btn_select"
+            }
+        ]
+    }
+}
