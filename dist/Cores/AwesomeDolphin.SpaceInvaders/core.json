@@ -7,8 +7,8 @@
             "description": "Space Invaders arcade machine",
             "author": "AwesomeDolphin",
             "url": "https://github.com/open-fpga/core-template",
-            "version": "0.1.0",
-            "date_release": "2023-11-27"
+            "version": "1.0.0",
+            "date_release": "2023-12-25"
         },
         "framework": {
             "target_product": "Analogue Pocket",
@@ -20,7 +20,7 @@
             },
             "hardware": {
                 "link_port": false,
-                "cartridge_adapter": -1
+                "cartridge_adapter": "0x80000000"
             }
         },
         "cores": [

@@ -1,0 +1,106 @@
+{
+    "data": {
+        "magic": "APF_VER_1",
+        "data_slots": [
+            {
+                "name": "Rom",
+                "id": 1,
+                "required": true,
+                "parameters": "0x008",
+                "filename": "invaders.rom",
+                "size_exact": "0x2000",
+                "address": "0x00000000"
+              },
+              {
+                "name": "SoundUFO",
+                "id": 10,
+                "required": true,
+                "parameters": "0x008",
+                "filename": "0.raw",
+                "size_exact": "0x3afa",
+                "address": "0x10000000"
+              },
+              {
+                "name": "PlayerShoot",
+                "id": 11,
+                "required": true,
+                "parameters": "0x008",
+                "filename": "1.raw",
+                "size_exact": "0x7770",
+                "address": "0x10100000"
+              },
+              {
+                "name": "PlayerDie",
+                "id": 12,
+                "required": true,
+                "parameters": "0x008",
+                "filename": "2.raw",
+                "size_exact": "0x1C90C",
+                "address": "0x10200000"
+              },
+              {
+                "name": "InvaderDie",
+                "id": 13,
+                "required": true,
+                "parameters": "0x008",
+                "filename": "3.raw",
+                "size_exact": "0x9E12",
+                "address": "0x10300000"
+              },
+              {
+                "name": "FleetMove1",
+                "id": 14,
+                "required": true,
+                "parameters": "0x008",
+                "filename": "4.raw",
+                "size_exact": "0x1948",
+                "address": "0x10400000"
+              },
+              {
+                "name": "FleetMove2",
+                "id": 15,
+                "required": true,
+                "parameters": "0x008",
+                "filename": "5.raw",
+                "size_exact": "0x16A8",
+                "address": "0x10500000"
+              },
+              {
+                "name": "FleetMove3",
+                "id": 16,
+                "required": true,
+                "parameters": "0x008",
+                "filename": "6.raw",
+                "size_exact": "0x17D8",
+                "address": "0x10600000"
+              },
+              {
+                "name": "FleetMove4",
+                "id": 17,
+                "required": true,
+                "parameters": "0x008",
+                "filename": "7.raw",
+                "size_exact": "0x1990",
+                "address": "0x10700000"
+              },
+              {
+                "name": "UFOHit",
+                "id": 18,
+                "required": true,
+                "parameters": "0x008",
+                "filename": "8.raw",
+                "size_exact": "0x2F88E",
+                "address": "0x10800000"
+              },
+              {
+                "name": "ExtendedPlay",
+                "id": 19,
+                "required": true,
+                "parameters": "0x008",
+                "filename": "9.raw",
+                "size_exact": "0x28D5A",
+                "address": "0x10900000"
+              }
+        ]
+    }
+}

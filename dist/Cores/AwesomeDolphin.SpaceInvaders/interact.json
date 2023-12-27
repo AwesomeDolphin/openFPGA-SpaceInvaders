@@ -1,0 +1,68 @@
+{
+    "interact": {
+        "magic": "APF_VER_1",
+        "variables": [
+          {
+            "name": "Starting Ships",
+            "id": 2,
+            "type": "list",
+            "enabled": true,
+            "persist": true,
+            "address": "0x20000001",
+            "mask": "0xfffffffc",
+            "defaultval": 0,
+            "options": [
+                {
+                    "value": "0x0",
+                    "name":"3 ships"
+                },
+                {
+                    "value": "0x1",
+                    "name":"4 ships"
+                },
+                {
+                    "value": "0x2",
+                    "name":"5 ships"
+                },
+                {
+                    "value": "0x3",
+                    "name":"6 ships"
+                }
+             ]
+          },
+          {
+            "name": "Extra Ship",
+            "id": 3,
+            "type": "list",
+            "enabled": true,
+            "persist": true,
+            "address": "0x20000001",
+            "mask": "0xfffffff7",
+            "defaultval": 0,
+            "options": [
+                {
+                    "value": "0x0",
+                    "name":"1500 points"
+                },
+                {
+                    "value": "0x8",
+                    "name":"1000 points"
+                }
+             ]
+          },
+          {
+            "name": "Show coinage",
+            "id": 4,
+            "type": "check",
+            "enabled": true,
+            "persist": true,
+            "address": "0x20000001",
+            "defaultval": 1,
+            "value": "0x0",
+            "value_off": "0x80",
+            "mask": "0xFFFFFF7F"
+          }
+        ],
+        "messages": []
+    }
+}
