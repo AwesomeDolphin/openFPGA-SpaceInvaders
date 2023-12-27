@@ -1,6 +1,11 @@
-# Core Template
-This is a template repository for a core which contains all of the core definition JSON files and FPGA starter code.
-
-## Legal
-Analogue’s Development program was created to further video game hardware preservation with FPGA technology. Analogue Developers have access to Analogue Pocket I/O’s so Developers can utilize cartridge adapters or interface with other pieces of original or bespoke hardware to support legacy media. Analogue does not support or endorse the unauthorized use or distribution of material protected by copyright or other intellectual property rights.
 # openFPGA-SpaceInvaders
+This is the openFPGA core for the arcade game Space Invaders. You will need to find roms and samples on your own. I cannot tell you where to get them from.
+
+The roms need to be joined into a single 8k file named invaders.rom and placed in Assets/spaceinvaders/common
+The samples need to be raw 44.1k/16-bit samples. I used Audigy to do the conversion. If your byte sizes change, you need to change data.json and the invaders_sound.v file to match.
+
+# Known issues
+
+- The sound system does not read the audio sizes from the loader
+- The sound glitches out now and then
+- This core could probably support other rom sets with only small bits of work
