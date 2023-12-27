@@ -6,6 +6,6 @@ The samples need to be raw 44.1k/16-bit samples. I used Audigy to do the convers
 
 # Known issues
 
-- The sound system does not read the audio sizes from the loader
-- The sound glitches out now and then
-- This core could probably support other rom sets with only small bits of work
+* The sound system does not read the audio sizes from the loader
+* The sound glitches out now and then
+* This core could probably support other rom sets with only small bits of work
